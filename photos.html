@@ -38,11 +38,18 @@
       justify-content: center;
       margin-top: 30px;
     }
+    .gallery a {
+      margin: 10px;
+    }
     .gallery img {
       width: 200px;
-      margin: 10px;
       border: 3px solid white;
       border-radius: 10px;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -58,14 +65,17 @@
     <h1>Photos de Classe</h1>
     <div id="gallery" style="display:none;">
       <div class="gallery">
-        <img src="photo1.jpg" alt="Photo 1">
+        <!-- Chaque photo est un lien cliquable -->
+        <a href="photo1.jpg" target="_blank">
+          <img src="photo1.jpg" alt="Photo 1">
+        </a>
         <!-- Ajoute d’autres photos ici -->
       </div>
     </div>
   </main>
 
   <script>
-    // Demande le mot de passe
+    // Protection par mot de passe
     var password = prompt("Entrez le mot de passe pour voir les photos :");
 
     if (password === "dcem2-2025") {
