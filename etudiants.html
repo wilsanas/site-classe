@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DCEM2 - Faculté de Médecine de Djibouti</title>
+    <title>Liste des étudiants - DCEM2</title>
     <style>
         body {
             margin: 0;
@@ -32,11 +32,18 @@
         nav a:hover {
             text-decoration: underline;
         }
-        main {
-            margin-top: 50px;
+        table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.6);
         }
-        h1 {
-            font-size: 3em;
+        th, td {
+            padding: 15px;
+            border: 1px solid white;
+        }
+        th {
+            background: rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>
@@ -47,8 +54,17 @@
         <a href="etudiants.html">Liste des étudiants</a>
     </nav>
     <main>
-        <h1>Bienvenue sur le site officiel</h1>
-        <p>Année universitaire 2025-2026</p>
+        <h1>Liste des étudiants</h1>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+            </tr>
+            <tr>
+                <td>Exemple</td>
+                <td>Étudiant</td>
+            </tr>
+        </table>
     </main>
 </body>
 </html>
