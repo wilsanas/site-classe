@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos de Classe - DCEM2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border: 3px solid white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Faculté de Médecine de Djibouti - DCEM2</header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+
+  <main>
+    <h1>Photos de Classe</h1>
+    <div id="gallery" style="display:none;">
+      <div class="gallery">
+        <img src="photo1.jpg" alt="Photo 1">
+        <!-- Ajoute d’autres photos ici -->
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Demande le mot de passe
+    var password = prompt("Entrez le mot de passe pour voir les photos :");
+
+    if (password === "dcem2-2025") {
+      document.getElementById("gallery").style.display = "block";
+    } else {
+      alert("Mot de passe incorrect !");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
