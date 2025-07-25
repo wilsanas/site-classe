@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dossier DCEM2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin-top: 50px;
+      font-size: 1.3em;
+    }
+    .box {
+      background: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .box a {
+      color: #00ccff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>Faculté de Médecine de Djibouti - DCEM2</header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+    <a href="dossier.html">Dossier DCEM2</a>
+  </nav>
+
+  <main>
+    <h1>Dossier DCEM2</h1>
+    <div id="content" style="display:none;">
+      <div class="box">
+        <p>Le lien vers le dossier Google Drive sera disponible ici :</p>
+        <!-- TU METTRAS TON LIEN DRIVE ICI -->
+        <p><a href="#" target="_blank">Lien Google Drive (à venir)</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Mot de passe (même que pour Photos pour l’instant)
+    var password = prompt("Entrez le mot de passe pour accéder au dossier :");
+
+    if (password === "dcem2-2025") {
+      document.getElementById("content").style.display = "block";
+    } else {
+      alert("Mot de passe incorrect !");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
