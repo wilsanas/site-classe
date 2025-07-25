@@ -48,11 +48,51 @@
     <nav>
         <a href="index.html">Accueil</a>
         <a href="etudiants.html">Liste des étudiants</a>
-        <a href="photos.html">Photos</a>
-    </nav>
-    <main>
-        <h1>Bienvenue sur le site officiel</h1>
-        <p>Année universitaire 2025-2026</p>
-    </main>
-</body>
-</html>
+        <nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
+    <a href="photos.html">Photos</a>
+</nav>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="etudiants.html">Étudiants</a>
